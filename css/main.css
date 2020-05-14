@@ -23,7 +23,7 @@
 p.short-email{												/*Обращяюсь к классу из html документа тег p класс short-email*/
 	font-size:13px;										/*Данный стиль отвечает за размер шрифта*/
 	position: relative;									/*Данный стиль отвечает за положение элемента*/
-    top: 12px;												/*Данный стиль Отвечает за отступ сверху*/
+	 top: 12px;												/*Данный стиль Отвечает за отступ сверху*/
 }																/*закрываю тег*/
 
 p.short-email a{											/*Обращяюсь к классу из html документа тег a*/
@@ -229,6 +229,7 @@ p.short-email a{											/*Обращяюсь к классу из html док
 	padding: 95px 30px 46px ;
 	position: relative;
 	-moz-box-sizing: border-box;
+	height: 415px;
 }
 
 .block-content.clearfix.row{
@@ -323,10 +324,31 @@ p.short-email a{											/*Обращяюсь к классу из html док
 	background: #fff;
 }
 
+.col-md-4.cl-sm-6.masonry{
+	 margin-left: -40px;
+}
+.row2{
+	margin-left: 26px;
+}
+
+.col-md-4.col-sm-6.masonry.mt-20{
+    margin-left: -40px;
+}
+
+.list-wallet.mt-20 li {
+    border: 1px solid #3c3c3c;
+    display: inline-block;
+    margin-top: -1px;
+    padding: 3px 7px;
+    margin-left: -5px;
+    background: whitesmoke;
+}
+
 .masonry{
 	margin-top: 50px;
 	border: 1px solid #f1f1f1;
 	padding: 60px 30px;
+	height: 450px;
 }
 
 .zagolovok{
