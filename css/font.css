@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'fontello';
+	src: url('../font/fontello.eot?6403121');
+	src: url('../font/fontello.eot?6403121#iefix') format('embedded-opentype'),
+		url('../font/fontello.woff?6403121') format('woff'),
+		url('../font/fontello.ttf?6403121') format('truetype'),
+		url('../font/fontello.svg?6403121#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+
+	/* В целях безопасности - сбросить родительские стили, которые могут нарушать коды глифов */
+	font-variant: normal;
+	text-transform: none;
+
+	/* исправить высоту кнопок, для твиттера при загрузке */
+	line-height: 1em;
+
+	/* Сглаживание шрифтов*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-print-1:before { content: '\ea4e'; } 			/* 'принт' */
+.icon-down-circled2:before { content: '\e8c2'; } 	/* 'скачать' */
+.icon-home:before { content: '\e851'; } 			/* 'главная' */
+.icon-user:before { content: '\e82e'; } 			/* 'о нас' */
+.icon-doc-text-inv:before { content: '\e891'; } 	/* 'резюме' */
+.icon-camera:before { content: '\e839'; } 			/* 'портфолио' */
+.icon-chat:before { content: '\e87e'; } 			/* 'блог' */
+.icon-paper-plane:before { content: '\e913'; } 		/* 'контакты' */
+.icon-facebook-circled:before { content: '\eb0a'; } /* 'facebook' */
+.icon-twitter-circled:before { content: '\eb08'; } 	/* 'twitter' */
+.icon-linkedin-circled:before { content: '\eb13'; } /* 'linkedin' */
+.icon-dribbble-circled:before { content: '\eb15'; } /* 'dribbble' */
+.icon-twitter:before { content: '\eb07'; } 			/* 'twitter' */
+.icon-facebook:before { content: '\e9d8'; } 		/* 'facebook' */
+.icon-gplus:before { content: '\e9e5'; } 			/* 'gplus' */
+.icon-pinterest:before { content: '\e9fb'; } 		/* 'pinterest' */
+.icon-linkedin:before { content: '\e9f3'; } 		/* 'linkedin' */
+.icon-dribbble:before { content: '\e9d5'; } 		/* 'dribbble' */
+.icon-vimeo:before { content: '\eb05'; } 			/* 'vimeo' */
+.icon-flickr:before { content: '\e9db'; } 			/* 'flickr' */
+.ic-streetsign:before {content: "\e029";} 			/* 'адресс' */
+.ic-clock:before {content: "\e055";} 				/* 'часы' */
+
+
+@font-face {
+	font-family: 'et-line';
+	src:url('../font/et-line.eot');
+	src:url('../font/et-line.eot?#iefix') format('embedded-opentype'),
+		url('../font/et-line.woff') format('woff'),
+		url('../font/et-line.ttf') format('truetype'),
+		url('../font/et-line.svg#et-line') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ic-desktop, .ic-lock, .ic-phone, .ic-toolbox, .ic-pencil, .ic-tools, .ic-mic, .ic-telescope, .ic-megaphone, .ic-strategy, .ic-hotairballoon, .ic-basket, .ic-wallet, .ic-hourglass, .ic-trophy, .ic-lightbulb, .ic-heart, .ic-shield, .ic-key, .ic-laptop, .ic-streetsign, .ic-clock {
+	font-family: 'et-line';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:inline-block;
+}
+
+.ic-desktop:before {content: "\e002";}
+.ic-lock:before {content: "\e020";}
+.ic-phone:before {content: "\e004";}
+.ic-toolbox:before {content: "\e014";}
+.ic-pencil:before {content: "\e032";}
+.ic-telescope:before {content: "\e02a";}
+.ic-wallet:before {content: "\e016";}
+
